@@ -17,3 +17,17 @@ string Name; //creates string
    cout << "Enter your first name: "; //gets name from user
    cin >> Name;//prints
    printWelcome(Name);//calls back to function 
+   
+   int mental;
+   int reason;
+   
+  cout << " On a scale of 1 to 10, How are you feeling today?: "<< endl;
+  cin >> mental; 
+ if ( mental < 4 ) 
+   cout << " Oh No! Why is that?" << endl; // print message
+   cin >> reason;
+ }
+
+  
+  return 0; // tells the computer everything 
+}

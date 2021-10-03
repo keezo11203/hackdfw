@@ -31,7 +31,7 @@ string Name;
  if ( mental <= 4  ) {
    cout << "Oh No! Here are some things I do to feel better: " << endl;
    ifstream reader;//looks for text file
-    reader.open("file.txt");//opens text file
+    reader.open("health.txt");//opens text file
     string word;
     string word2;
     string word3;
